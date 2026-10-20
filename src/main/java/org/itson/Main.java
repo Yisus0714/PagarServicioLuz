@@ -1,9 +1,6 @@
 package org.itson;
 
 import controlador.PagarLuzControlador;
-import modelo.Cliente;
-import modelo.Consumo;
-import modelo.Recibo;
 import modelo.ServicioLuzBO;
 import vista.PagarLuzFrame;
 

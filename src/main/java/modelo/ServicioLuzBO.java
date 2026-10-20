@@ -42,7 +42,7 @@ public class ServicioLuzBO {
             return resultado;
         }
         for (Cliente c : clientes) {
-            if (c.getNumeroServicio().contains(criterio.trim())) {
+            if (c.getNumeroServicio().startsWith(criterio.trim())) {
                 resultado.add(c);
             }
         }
